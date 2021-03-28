@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+
+.navbar {
+    height: 100px;
+    background-color: #333;
+    color: whitesmoke;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    background-color: blue;
+    opacity: 115%;
+    transform: skewY(6deg);
+    transform: skewX(5deg);
+    margin-bottom: 10px;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    color: white;
+    font-family: "Times New Roman", sans-serif;
+    font-weight: bolder;
+}
+
+.foot{
+    color: yellow;
+    padding-left: 150px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    background-color: gray;
+    line-height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-style: italic;
+}
